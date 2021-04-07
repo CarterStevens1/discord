@@ -1,7 +1,7 @@
 require("dotenv").config();
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const TOKEN = "ODI4OTY2Njg4NDA5OTExMzI2.YGxRYw.vOd - gF4HW3GdEdGjno5a3 - LFoUs";
+const TOKEN = "";
 const prefix = "!";
 
 client.once("ready", () => {
