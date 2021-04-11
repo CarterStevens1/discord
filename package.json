@@ -9,7 +9,12 @@
   "author": "Michiel Mulders",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.4",
-    "dotenv": "^8.2.0"
+    "@blad3mak3r/reddit-memes": "^0.2.4",
+    "config.json": "^0.0.4",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "imageapi.js": "^1.6.1",
+    "reddit": "^1.2.1",
+    "twit": "^2.2.11"
   }
 }
