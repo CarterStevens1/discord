@@ -1,5 +1,6 @@
 module.exports = {
   name: "8ball",
+  description: "Enter a question of more than 2 words to get a random answer",
   rand: [
     "It is certain",
     "It is decidedly so",
@@ -27,7 +28,7 @@ module.exports = {
    * What is run when someone enters this in chat
    */
   execute(message) {
-    var messageArray = message.content.split(" ");
+    let messageArray = message.content.split(" ");
     if (messageArray.length <= 1) {
       message.channel.send("Please ask a question!");
       return;

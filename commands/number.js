@@ -1,5 +1,6 @@
 module.exports = {
   name: "multiply",
+  description: "Multiplys two numbers togerther",
 
   execute(message, args) {
     if (args.length < 2) {

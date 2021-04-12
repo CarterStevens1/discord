@@ -2,10 +2,10 @@ const image = require("imageapi.js");
 const Discord = require("discord.js");
 
 module.exports = {
-  name: "meme",
-  description: "Gives you a meme",
+  name: "doge",
+  description: "doge meme generator",
   execute: async (message, args) => {
-    const subReddits = ["dankmeme", "memes"];
+    const subReddits = ["doge"];
     const random = subReddits[Math.floor(Math.random() * subReddits.length)];
 
     const img = await image(random).catch((err) => {
